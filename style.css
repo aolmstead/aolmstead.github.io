@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: url("loading_dock.jpg");
+	background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+h1 {
+	margin: 0;
+	font-size: 4rem;
+}
+h2 {
+	margin: 0;
+}
+h3 {
+	color: #202020;
+}
+
+td {
+	padding: 10px;
+	vertical-align: top;
+	width: 50%
+}
+
+ul {
+	list-style-type: square;
+}
+
+a:link, a:visited  {
+	color: #303030;
+}
+
+a.subpage {
+	text-decoration: none;
+	color: #169BDE;
+}
+
+#container {
+	width: 1000px;
+}
+
+#header {
+	width: inherit;
+	height: 125px;
+	position: fixed;
+	text-align: center;
+	background-color: #202020;
+	color: #169BDE;
+	opacity: 0.75;
+}
+
+#content {
+	background: rgba(22, 155, 222, 0.7);
+	padding: 30px;
+	padding-top: 135px;
+}
